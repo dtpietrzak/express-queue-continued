@@ -10,7 +10,7 @@ import { Request, Response } from 'express'
 type Config = {
   activeLimit: number,
   queuedLimit: number,
-  rejectHandler: (req: Request, res: Response) => void
+  rejectHandler?: (req: Request, res: Response) => void
 }
 
 const expressQueueMw = function (config: Config) {
