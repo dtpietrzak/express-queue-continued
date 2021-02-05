@@ -4,9 +4,6 @@
   "description": "Express middleware to limit a number of simultaneously processing requests using queue - Continued due to OP being absent",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
-  "directories": {
-    "lib": "lib"
-  },
   "scripts": {
     "test": "jest --config jestconfig.json",
     "build": "tsc",
