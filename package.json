@@ -2,7 +2,8 @@
   "name": "express-queue-continued",
   "version": "1.0.0",
   "description": "Express middleware to limit a number of simultaneously processing requests using queue - Continued due to OP being absent",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "directories": {
     "lib": "lib"
   },
@@ -11,7 +12,6 @@
     "build": "tsc",
     "type:watch": "tsc --watch",
     "prepare": "npm run build",
-    "prepublishOnly": "npm test",
     "version": "git add -A src",
     "postversion": "git push && git push --tags",
     "examples": "ts-node examples.ts"
