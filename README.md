@@ -54,9 +54,6 @@ Please, refer to [alykoshin's project](https://github.com/alykoshin/express-queu
 OP !!! Thank you much !!!
 [Alexander](https://github.com/alykoshin/)
 
-Reject code from this guy !!!
-[pmoleri](https://github.com/pmoleri)
-
 - just a guy
 [David P.](https://davidp.dev)
 
